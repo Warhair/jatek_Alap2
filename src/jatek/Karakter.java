@@ -4,27 +4,21 @@
  */
 package jatek;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author tegzes.marton
  */
 public class Karakter {
    private int eletero, ugyesseg, szerencse;
-   private String fleszereles;
+   private ArrayList<Targy> fleszereles;
 
-    public Karakter(int eletero, int ugyesseg, int szerencse, String fleszereles) {
+    public Karakter(int eletero, int ugyesseg, int szerencse) {
         this.eletero = eletero;
         this.ugyesseg = ugyesseg;
         this.szerencse = szerencse;
-        this.fleszereles = fleszereles;
-    }
-
-    public String getFleszereles() {
-        return fleszereles;
-    }
-
-    public void setFleszereles(String fleszereles) {
-        this.fleszereles = fleszereles;
+        
     }
     
 
